@@ -1,3 +1,4 @@
+
 print(""" ______   ______ _____ _____ __  __
 / ___\ \ / / ___|_   _| ____|  \/  |
 \___\ \ V /\___ \ | | |  _| | |\/| |
@@ -10,8 +11,25 @@ print(""" ______   ______ _____ _____ __  __
  | || |\  |  _|| |_| |  _ <| |  | |/ ___ \| |  | | |_| | |\  |
 |___|_| \_|_|   \___/|_| \_\_|  |_/_/   \_\_| |___\___/|_| \_|""")
 print(" ")
-print(">>>>>>DARK CYBER WEAPON<<<<<<")
+print("                                     >>>>>>DARK CYBER WEAPON<<<<<<")
 print(" ")
+print("                TODAY>>>   DATE AND TIME")
+print(" ")
+
+
+import datetime
+e = datetime.datetime.now()
+print ("Current date and time = %s" % e)
+print("                    DATE>>>")
+print("")
+print ("        Today's date:  = %s/%s/%s" % (e.day, e.month, e.year))
+print("                    TIME>>>")
+print("")
+print ("        The time is now: = %s:%s:%s" % (e.hour, e.minute, e.second))
+print("")
+print("")
+print("^>>>>>>>>>>>>")
+print("")
 
 print("LOADING SYSTEM INFORMATION>>>")
 print(" ")
@@ -35,6 +53,7 @@ print(" ")
 print(" ")
  
 print("ANDROID SYSTEM")
+print("")
 my_system = platform.uname()
  
 
