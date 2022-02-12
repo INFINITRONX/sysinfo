@@ -11,24 +11,24 @@ print(""" ______   ______ _____ _____ __  __
  | || |\  |  _|| |_| |  _ <| |  | |/ ___ \| |  | | |_| | |\  |
 |___|_| \_|_|   \___/|_| \_\_|  |_/_/   \_\_| |___\___/|_| \_|""")
 print(" ")
-print("                                     >>>>>>DARK CYBER WEAPON<<<<<<")
+print("                              >>>>>>DARK CYBER WEAPON<<<<<<")
 print(" ")
-print("                TODAY>>>   DATE AND TIME")
+print("TODAY>>>   DATE AND TIME")
 print(" ")
 
 
 import datetime
 e = datetime.datetime.now()
 print ("Current date and time = %s" % e)
-print("                    DATE>>>")
+print("<<<DATE>>>")
 print("")
-print ("        Today's date:  = %s/%s/%s" % (e.day, e.month, e.year))
-print("                    TIME>>>")
+print ("Today's date:  = %s/%s/%s" % (e.day, e.month, e.year))
+print("<<<TIME>>>")
 print("")
-print ("        The time is now: = %s:%s:%s" % (e.hour, e.minute, e.second))
+print ("The time is now: = %s:%s:%s" % (e.hour, e.minute, e.second))
 print("")
 print("")
-print("^>>>>>>>>>>>>")
+print("^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 print("")
 
 print("LOADING SYSTEM INFORMATION>>>")
@@ -41,7 +41,7 @@ print("#####################.........70%")
 print(" ")
 print("##########################....87%")
 print(" ") 
-print(" #############################100%")
+print("##############################100%")
 print(" ")
 print(" ")
 
@@ -50,7 +50,7 @@ import platform
 print("$$___DARK CYBER WEAPON SYSTEM INFORMATION___$$")
 
 print(" ")
-print(" ")
+
  
 print("ANDROID SYSTEM")
 print("")
@@ -71,4 +71,4 @@ print(f"∆∆∆>> Processor: {my_system.processor}")
 print("")
 print(">>>>>FINISHED!!!!!!!!!!!!")
 print("")
-print(" press ctrl+z to stop and exit")
+print(" type exit to stop and exit")
