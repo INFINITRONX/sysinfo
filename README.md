@@ -1,5 +1,6 @@
 # sysinfo
-Your system information here
+YOUR ALL SYSTEM INFORMATION IS HERE..
+
 
 IM DARK CYBER WEAPON. PLZ DON'T COPY MY REPOSITORIES..
 
