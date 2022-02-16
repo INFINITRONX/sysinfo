@@ -1,3 +1,4 @@
+import os
 import psutil
 import platform
 from datetime import datetime
@@ -13,7 +14,7 @@ def get_size(bytes, suffix="B"):
         if bytes < factor:
             return f"{bytes:.2f}{unit}{suffix}"
         bytes /= factor
-        
+os.system("clear")        
 print(""" ______   ______ _____ _____ __  __ 
 / ___\ \ / / ___|_   _| ____|  \/  |
 \___\ \ V /\___ \ | | |  _| | |\/| |
